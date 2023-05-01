@@ -1,0 +1,25 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.contanier{
+    width: 100%;
+    height: 100vh;
+    background: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contanier .login{
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    background: rgb(255,255, 255,0.11);
+    box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.7);
+    backdrop-filter: ;
+}
